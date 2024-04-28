@@ -6,6 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+// This class aims to get properties from a config file
+
 public class GeneralConfig {
 
     private static Properties properties;

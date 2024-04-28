@@ -7,14 +7,12 @@ import org.apache.http.HttpStatus;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static base.RestAssuredBase.spec;
-
 
 public class DummyRestApiExampleTests extends BaseTest {
 
     @Test
     public void getEmployeeTest(){
-        // Sending Request
+        // Sending Request and Assert Status Code
         JsonPath response = RestAssured
                 .given()
                 .spec(specification)

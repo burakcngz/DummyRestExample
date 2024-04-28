@@ -10,6 +10,7 @@ import static config.GeneralConfig.getConfigValue;
 public class RestAssuredBase {
     public static RequestSpecBuilder requestSpecBuilder;
 
+    // Preparing the common specifications for the requests like request logging, some headers,Also tokens will be here
 
     public static RequestSpecification spec(){
 

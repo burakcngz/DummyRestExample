@@ -11,6 +11,9 @@ import static base.RestAssuredBase.spec;
 import static config.GeneralConfig.ReadProperty;
 import static config.GeneralConfig.getConfigValue;
 import static io.restassured.RestAssured.baseURI;
+
+// This is the base class for all tests. All test classes will be inherited from here.
+// Setting the baseURI and the specifications for the tests is here.
 @Listeners(Listener.class)
 public class BaseTest {
     public RequestSpecification specification;

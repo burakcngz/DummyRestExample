@@ -11,7 +11,6 @@ import java.text.SimpleDateFormat;
 public class ExtentManager {
 	public static final ExtentReports extentReports = new ExtentReports();
 	private static final SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
-	public static String fileName;
 	static Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 	static ExtentSparkReporter reporter = new ExtentSparkReporter("./reports/" + sdf1.format(timestamp) + ".html");
 
