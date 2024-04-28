@@ -35,6 +35,6 @@ getEmployeeTest: This test verifies
 ## Dependencies
 This project relies on the following dependencies:
 
-Rest Assured: For API testing
-TestNG: For test execution
-Extent Reports: For reporting
+- Rest Assured: For API testing
+- TestNG: For test execution
+- Extent Reports: For reporting
