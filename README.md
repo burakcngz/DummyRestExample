@@ -9,7 +9,7 @@ Before running the tests, ensure you have the following software installed:
 - Java Development Kit (JDK)
 - Maven
 
-## Installation
+## Installation & Usage
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
@@ -18,6 +18,8 @@ Before running the tests, ensure you have the following software installed:
 ## Usage
 
 To run the tests, execute the following command:
+
+> After mvn clean install please wait a little to run below code because dummy.restapiexample does not allow requests one after another and it returns Too Many Requests error.
 
 ```bash
 mvn clean install test -DsuiteXmlFile="employeetest.xml"
